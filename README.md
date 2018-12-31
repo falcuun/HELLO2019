@@ -13,11 +13,16 @@ static void Main(string[] args)
 =============ANDROID=============
 
 import android.widget.Toast;
+
 protected void onCreate(Bundle savedInstanceState)
+
 {
 	super.onCreate(savedInstanceState);
+	
 	setContentView(R.layout.activity_main);
+	
 	Toast.makeText(getApplicationContext(), "HELLO 2019!", Toast.LENGTH_LONG).show();
+	
 }
 
 =============ANDROID=============
@@ -25,8 +30,11 @@ protected void onCreate(Bundle savedInstanceState)
 =============JAVA=============
 
 public static void main(String[] args)
+
 {
+
 	System.out.println("HELLO 2019!");
+	
 }
 
 =============JAVA=============
@@ -34,10 +42,15 @@ public static void main(String[] args)
 =============C++=============
 
 #include <iostream>
+	
 int main()
+
 {
+
 	std::cout << "HELLO 2019!" << std::endl;
+	
 	return 0;
+	
 }
 	
 =============C++=============
@@ -45,10 +58,15 @@ int main()
 =============C=============
 
 #include <stdio.h>
+
 int main()
+
 {
+
 	printf("HELLO 2019!");
+	
 	return 0;
+	
 }
 
 =============C=============
