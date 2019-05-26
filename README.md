@@ -85,7 +85,7 @@ int main()
 
 /*
 #Arduino (C/C++)
-#Android (JAVA)
+#Android (JAVA/Kotlin)
 #Desktop (JAVA/C++/C#/Python)
 #Web     (PHP/C#)
 */
